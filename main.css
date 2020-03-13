@@ -1,0 +1,92 @@
+*
+{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+}
+body{
+	display:flex;
+	flex-direction:column;
+}
+.navigation {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+.navigation > nav {
+	display:flex;
+	background: white;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+}
+.purchase{
+	display:flex;
+	justify-content:flex-end;
+	align-self:flex-end;
+
+}
+.navigation > img{
+	display:flex;
+	flex-direction:row;
+	height:70px;
+	width:70px;
+	object-fit:cover;
+}
+.navigation > nav > a{
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+	background: yellow;
+	flex-direction:row;
+	font-size:10px;
+	color:black;
+	padding:10px 20px;
+	margin: 50px;
+	text-decoration: none;
+}
+.navigation > nav > a:hover{
+	color:red;
+	text-decoration-style: line;
+}
+.head1 {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	padding: 50px;
+}
+.head1 > img{
+	height:200px;
+	width:200px;
+	border-radius: 50%;
+	object-fit:cover;
+	justify-content: center;
+}
+.biodata {
+	padding: 50px;
+	max-width: 300px;
+}
+.biodata .name {
+	font-size: 25px;
+	font-weight: 700;
+}
+.email, .phone {
+	font-size: 16px;
+}
+.biography {
+	margin-top: 25px;
+}
+.slide2{
+	display:flex;
+	flex-flow:row wrap;
+	align-items:center;
+}
+.ini{
+	height:500px;
+	width:500px;
+	object-fit:cover;
+	justify-content:center;
+}
+.h1{
+
+}
