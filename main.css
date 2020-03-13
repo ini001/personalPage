@@ -22,7 +22,6 @@ body{
 }
 .purchase{
 	display:flex;
-	justify-content:flex-end;
 	align-self:flex-end;
 
 }
@@ -37,17 +36,17 @@ body{
 	display:flex;
 	justify-content: space-between;
 	align-items:center;
-	background: yellow;
 	flex-direction:row;
-	font-size:10px;
+	font-size:17px;
 	color:black;
-	padding:10px 20px;
-	margin: 50px;
+	padding:20px 20px;
+	margin: 16px;
 	text-decoration: none;
 }
 .navigation > nav > a:hover{
 	color:red;
 	text-decoration-style: line;
+	border-bottom: 2px solid #004400;
 }
 .head1 {
 	display: flex;
@@ -78,8 +77,18 @@ body{
 }
 .slide2{
 	display:flex;
-	flex-flow:row wrap;
+	flex-flow:row nowrap;
 	align-items:center;
+	width: 100%;
+	justify-content: center;
+}
+.abtme {
+	display: flex;
+	flex-flow: column nowrap;
+	padding:20px;
+}
+.abtme-p {
+	max-width: 400px;
 }
 .ini{
 	height:500px;
